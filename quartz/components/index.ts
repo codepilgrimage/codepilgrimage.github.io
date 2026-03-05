@@ -24,6 +24,7 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import EmailSubscription from "./EmailSubscription"
+import ProfileImage from "./ProfileImage"
 
 export {
   ArticleTitle,
@@ -52,4 +53,5 @@ export {
   Flex,
   ConditionalRender,
   EmailSubscription,
+  ProfileImage,
 }

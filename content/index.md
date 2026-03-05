@@ -4,8 +4,6 @@ title: Codepilgrimage
 
 Welcome to my digital garden! I'm an **Associate Architect** in the automotive embedded software domain. This space is dedicated to tracking my professional journey, explorations, and insights into the rapidly evolving world of automotive software and embedded ecosystems.
 
-<img src="profile.png" width="150" style="border-radius: 50%; display: block; margin-bottom: 20px;">
-
 ## Core Focus Areas
 - **Autosar**: Deep diving into the Diagnostics & Communication Stack (UDS, OBD, OBDonUDS).
 - **Rust Programming**: Exploring memory-safe systems programming for next-generation platforms.
