@@ -20,10 +20,11 @@ const ProfileImage: QuartzComponent = ({ fileData, displayClass }: QuartzCompone
 ProfileImage.css = `
 .profile-image-container {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
+  justify-content: center;
 }
 .profile-image {
-  border-radius: 50%;
+  border-radius: 25%;
   width: 100px;
   height: 100px;
   object-fit: cover;
