@@ -5,11 +5,20 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: "codepilgrimage/codepilgrimage.github.io",
+        repoId: "R_kgDOM_XXXX", // User needs to update this
+        category: "Announcements",
+        categoryId: "DIC_XXXX", // User needs to update this
+      },
+    }),
+  ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "GitHub": "https://github.com/codepilgrimage",
     },
   }),
 }
@@ -43,6 +52,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.EmailSubscription(),
     Component.Backlinks(),
   ],
 }
