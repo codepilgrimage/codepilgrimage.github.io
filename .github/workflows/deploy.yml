@@ -5,6 +5,8 @@ on:
     branches:
       - v4
       - main
+      - blog
+      - main
       - master
 
 permissions:
