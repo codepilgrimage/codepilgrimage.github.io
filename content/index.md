@@ -11,8 +11,5 @@ Welcome to my digital garden! I'm an **Associate Architect** in the automotive e
 - **Embedded OS & Systems**: Exploring core embedded concepts with hardware like the Raspberry Pi 4, and diving into operating systems such as FreeRTOS, QNX, and Linux.
 - **Automotive Tech Trends**: Staying ahead of the latest technologies shaping Software-Defined Vehicles (SDVs).
 
-## Featured Notes
-* [Essential Cryptography Resources](cybersecurity-resources)
-
 > [!NOTE]
 > This site is actively maintained and built using [Quartz v4](https://quartz.jzhao.xyz/). Feel free to use the graph view or search to navigate through my knowledge base!

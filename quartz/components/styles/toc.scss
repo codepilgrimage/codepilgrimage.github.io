@@ -5,6 +5,7 @@
   flex-direction: column;
   overflow-y: hidden;
   min-height: 1.4rem;
+  max-height: 50vh;
   flex: 0 0.5 auto;
   &:has(button.toc-header.collapsed) {
     flex: 0 1 1.4rem;
