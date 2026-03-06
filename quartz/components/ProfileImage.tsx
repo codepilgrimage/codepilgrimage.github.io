@@ -3,18 +3,18 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 
 const ProfileImage: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
-    const baseDir = pathToRoot(fileData.slug!)
-    return (
-        <div class={classNames(displayClass, "profile-image-container")}>
-            <a href={baseDir}>
-                <img
-                    src={`${baseDir}/profile.png`}
-                    class="profile-image"
-                    alt="Profile"
-                />
-            </a>
-        </div>
-    )
+  const baseDir = pathToRoot(fileData.slug!)
+  return (
+    <div class={classNames(displayClass, "profile-image-container")}>
+      <a href={baseDir}>
+        <img
+          src={`${baseDir}/profile.png`}
+          class="profile-image"
+          alt="Profile"
+        />
+      </a>
+    </div>
+  )
 }
 
 ProfileImage.css = `
@@ -32,6 +32,12 @@ ProfileImage.css = `
 }
 .profile-image:hover {
   transform: scale(1.05);
+}
+
+@media all and (max-width: 800px) {
+  .profile-image-container {
+    display: none;
+  }
 }
 `
 
