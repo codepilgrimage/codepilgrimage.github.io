@@ -6,15 +6,16 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.Comments({
-      provider: "giscus",
-      options: {
-        repo: "codepilgrimage/codepilgrimage.github.io",
-        repoId: "R_kgDOM_XXXX", // User needs to update this
-        category: "Announcements",
-        categoryId: "DIC_XXXX", // User needs to update this
-      },
-    }),
+    // Placeholder for Giscus integration - uncomment once the GitHub App is installed
+    // Component.Comments({
+    //   provider: "giscus",
+    //   options: {
+    //     repo: "codepilgrimage/codepilgrimage.github.io",
+    //     repoId: "R_kgDOM_XXXX", // User needs to update this
+    //     category: "Announcements",
+    //     categoryId: "DIC_XXXX", // User needs to update this
+    //   },
+    // }),
   ],
   footer: Component.Footer({
     links: {
