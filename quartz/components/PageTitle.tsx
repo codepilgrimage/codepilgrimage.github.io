@@ -17,20 +17,7 @@ PageTitle.css = `
 .page-title {
   font-size: 1.75rem;
   margin: 0;
-  flex: auto;
   font-family: var(--titleFont);
-}
-
-@media all and (min-width: 800px) {
-  .page-title {
-    text-align: center;
-  }
-}
-
-@media all and (max-width: 800px) {
-  .page-title {
-    font-size: 1.25rem;
-  }
 }
 `
 
