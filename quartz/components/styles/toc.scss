@@ -4,9 +4,8 @@
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
-  min-height: 1.4rem;
-  max-height: 40vh !important; /* Force override of div:has(> .overflow) from base.scss */
-  flex: 0 0 auto;
+  min-height: 2rem;
+  flex: 0 1 auto; /* Flex basis auto, but perfectly squishable */
   &:has(button.toc-header.collapsed) {
     flex: 0 1 1.4rem;
   }
