@@ -5,8 +5,8 @@
   flex-direction: column;
   overflow-y: hidden;
   min-height: 1.4rem;
-  max-height: 50vh;
-  flex: 0 0.5 auto;
+  max-height: 40vh !important; /* Force override of div:has(> .overflow) from base.scss */
+  flex: 0 0 auto;
   &:has(button.toc-header.collapsed) {
     flex: 0 1 1.4rem;
   }
